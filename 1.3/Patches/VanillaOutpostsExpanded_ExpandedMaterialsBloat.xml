@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Expanded Materials - Bloat</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationInsert">
+					<xpath>Defs/WorldObjectDef[defName="Outpost_Mining"]/modExtensions/li/Resources/ComponentIndustrial</xpath>
+					<value>
+						<EM_Alluminium>10</EM_Alluminium> <!-- 900 -->
+						<EM_Beryllium>10</EM_Beryllium> <!-- 900 -->
+						<EM_Bismuth>10</EM_Bismuth> <!-- 900 -->
+						<EM_Calcium>10</EM_Calcium> <!-- 900 -->
+						<EM_Cobalt>10</EM_Cobalt> <!-- 900 -->
+						<EM_Galium>10</EM_Galium> <!-- 900 -->
+						<EM_Magnesium>10</EM_Magnesium> <!-- 900 -->
+						<EM_Mercury>10</EM_Mercury> <!-- 900 -->
+						<EM_Nickel>10</EM_Nickel> <!-- 900 -->
+						<EM_Palladium>10</EM_Palladium> <!-- 900 -->
+						<EM_Platinum>10</EM_Platinum> <!-- 900 -->
+						<EM_Silicon>10</EM_Silicon> <!-- 900 -->
+						<EM_Zinc>10</EM_Zinc> <!-- 900 -->
+					</value>
+				</li>
+			</operations>
+		</match>
+    </Operation>
+</Patch>
